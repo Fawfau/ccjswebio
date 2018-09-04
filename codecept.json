@@ -1,0 +1,42 @@
+{
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "http://automationpractice.com",
+      "host":"localhost",
+      "port":"4444",
+      "protocol":"http",
+      "path":"/wd/hub",
+      "smartWait":5000,
+      "uniqueScreenshotNames":true,
+      "windowSize":"1366x768",
+      "browser": "chrome"
+  }
+},
+  "include": {
+    "I": "./steps_file.js"
+  },
+  "bootstrap": false,
+  "mocha": {
+    "reporterOptions": {
+      "codeceptjs-cli-reporter": {
+        "stdout": "-",
+        "options": {
+          "verbose": true,
+          "steps": true
+        }
+      }
+    ,
+      "mochawesome": {
+       "stdout": "./output/console.log",
+       "options": {
+         "reportDir": "./output",
+         "reportFilename": "report"
+      }
+    }
+  }
+},
+  "name": "ccjswebio"
+}
