@@ -21,21 +21,7 @@
   "bootstrap": false,
   "mocha": {
     "reporterOptions": {
-      "codeceptjs-cli-reporter": {
-        "stdout": "-",
-        "options": {
-          "verbose": true,
-          "steps": true
-        }
-      }
-    ,
-      "mochawesome": {
-       "stdout": "./output/console.log",
-       "options": {
-         "reportDir": "./output",
-         "reportFilename": "report"
-      }
-    }
+      "mochaFile": "output/result.xml"
   }
 },
   "name": "ccjswebio"
