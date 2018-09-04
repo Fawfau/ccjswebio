@@ -21,7 +21,7 @@
   "bootstrap": false,
   "mocha": {
     "reporterOptions": {
-      "mochaFile": "output/result.xml"
+      "reportDir": "output"
   }
 },
   "name": "ccjswebio"
