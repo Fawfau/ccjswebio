@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537416021331' stop='1537416033860'>
+    <name>Home:</name>
+    <title>Home:</title>
+    <test-cases>
+        <test-case start='1537416021334' status='passed' stop='1537416033746'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537416025094' status='passed' stop='1537416030417'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416030418' status='passed' stop='1537416030513'>
+                    <name>I see "CURA Healthcare Service"</name>
+                    <title>I see "CURA Healthcare Service"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416030513' status='passed' stop='1537416031024'>
+                    <name>I click "#btn-make-appointment"</name>
+                    <title>I click "#btn-make-appointment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416031024' status='passed' stop='1537416031097'>
+                    <name>I see "Login"</name>
+                    <title>I see "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416031097' status='passed' stop='1537416031104'>
+                    <name>I see current url equals "/profile.php#login"</name>
+                    <title>I see current url equals "/profile.php#login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416031104' status='passed' stop='1537416031209'>
+                    <name>I fill field "#txt-username", "John Doe"</name>
+                    <title>I fill field "#txt-username", "John Doe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416031209' status='passed' stop='1537416031355'>
+                    <name>I fill field "#txt-password", "ThisIsNotAPassword"</name>
+                    <title>I fill field "#txt-password", "ThisIsNotAPassword"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416031355' status='passed' stop='1537416032058'>
+                    <name>I click "#btn-login"</name>
+                    <title>I click "#btn-login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416032058' status='passed' stop='1537416033059'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416033059' status='passed' stop='1537416033155'>
+                    <name>I dont see "Login failed! Please ensure the username and password are valid."</name>
+                    <title>I dont see "Login failed! Please ensure the username and password are valid."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416033155' status='passed' stop='1537416033207'>
+                    <name>I see "Make Appointment"</name>
+                    <title>I see "Make Appointment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416033207' status='passed' stop='1537416033277'>
+                    <name>I select option "#combo_facility", "Hongkong CURA Healthcare Center"</name>
+                    <title>I select option "#combo_facility", "Hongkong CURA Healthcare Center"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416033277' status='passed' stop='1537416033371'>
+                    <name>I check option "#chk_hospotal_readmission"</name>
+                    <title>I check option "#chk_hospotal_readmission"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416033371' status='passed' stop='1537416033453'>
+                    <name>I click "#radio_program_none"</name>
+                    <title>I click "#radio_program_none"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416033453' status='passed' stop='1537416033571'>
+                    <name>I click "#txt_visit_date"</name>
+                    <title>I click "#txt_visit_date"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416033571' status='passed' stop='1537416033659'>
+                    <name>I click ".datepicker-switch"</name>
+                    <title>I click ".datepicker-switch"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416033660' status='passed' stop='1537416033746'>
+                    <name>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td//*[contains(concat(' ', normalize-space(./@class), ' '), ' month ')][contains(., 'Oct')]}</name>
+                    <title>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td//*[contains(concat(' ', normalize-space(./@class), ' '), ' month ')][contains(., 'Oct')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

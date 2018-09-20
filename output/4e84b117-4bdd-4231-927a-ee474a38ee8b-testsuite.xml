@@ -1,0 +1,134 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537416339083' stop='1537416355066'>
+    <name>Home:</name>
+    <title>Home:</title>
+    <test-cases>
+        <test-case start='1537416339085' status='failed' stop='1537416354650'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537416342752' status='passed' stop='1537416346201'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416346201' status='passed' stop='1537416346299'>
+                    <name>I see "CURA Healthcare Service"</name>
+                    <title>I see "CURA Healthcare Service"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416346299' status='passed' stop='1537416346892'>
+                    <name>I click "#btn-make-appointment"</name>
+                    <title>I click "#btn-make-appointment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416346892' status='passed' stop='1537416346970'>
+                    <name>I see "Login"</name>
+                    <title>I see "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416346970' status='passed' stop='1537416346978'>
+                    <name>I see current url equals "/profile.php#login"</name>
+                    <title>I see current url equals "/profile.php#login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416346978' status='passed' stop='1537416347082'>
+                    <name>I fill field "#txt-username", "John Doe"</name>
+                    <title>I fill field "#txt-username", "John Doe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416347082' status='passed' stop='1537416347217'>
+                    <name>I fill field "#txt-password", "ThisIsNotAPassword"</name>
+                    <title>I fill field "#txt-password", "ThisIsNotAPassword"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416347217' status='passed' stop='1537416347878'>
+                    <name>I click "#btn-login"</name>
+                    <title>I click "#btn-login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416347878' status='passed' stop='1537416348881'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416348881' status='passed' stop='1537416349029'>
+                    <name>I dont see "Login failed! Please ensure the username and password are valid."</name>
+                    <title>I dont see "Login failed! Please ensure the username and password are valid."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416349029' status='passed' stop='1537416349121'>
+                    <name>I see "Make Appointment"</name>
+                    <title>I see "Make Appointment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416349121' status='passed' stop='1537416349184'>
+                    <name>I select option "#combo_facility", "Hongkong CURA Healthcare Center"</name>
+                    <title>I select option "#combo_facility", "Hongkong CURA Healthcare Center"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416349184' status='passed' stop='1537416349285'>
+                    <name>I check option "#chk_hospotal_readmission"</name>
+                    <title>I check option "#chk_hospotal_readmission"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416349285' status='passed' stop='1537416349366'>
+                    <name>I click "#radio_program_none"</name>
+                    <title>I click "#radio_program_none"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416349366' status='passed' stop='1537416349470'>
+                    <name>I click "#txt_visit_date"</name>
+                    <title>I click "#txt_visit_date"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416349470' status='passed' stop='1537416349539'>
+                    <name>I click ".datepicker-switch"</name>
+                    <title>I click ".datepicker-switch"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416349539' status='passed' stop='1537416349625'>
+                    <name>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td//*[contains(concat(' ', normalize-space(./@class), ' '), ' month ')][contains(., 'Oct')]}</name>
+                    <title>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td//*[contains(concat(' ', normalize-space(./@class), ' '), ' month ')][contains(., 'Oct')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537416349626' status='failed' stop='1537416354648'>
+                    <name>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td//*[contains(concat(' ', normalize-space(./@class), ' '), ' day ')][contains(., '3')][position()=1]}</name>
+                    <title>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td//*[contains(concat(' ', normalize-space(./@class), ' '), ' day ')][contains(., '3')][position()=1]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='b10f909a-2f5f-4024-863e-3c8ab9958d3c-attachment.png' type='image/png' size='29341'/>
+            </attachments>
+            <failure>
+                <message>Clickable element {"type":"xpath","output":null,"strict":true,"locator":{"xpath":".//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td//*[contains(concat(' ', normalize-space(./@class), ' '), ' day ')][contains(., '3')][position()=1]"},"value":".//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td//*[contains(concat(' ', normalize-space(./@class), ' '), ' day ')][contains(., '3')][position()=1]"} was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element {"type":"xpath","output":null,"strict":true,"locator":{"xpath":".//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td//*[contains(concat(' ', normalize-space(./@class), ' '), ' day ')][contains(., '3')][position()=1]"},"value":".//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td//*[contains(concat(' ', normalize-space(./@class), ' '), ' day ')][contains(., '3')][position()=1]"} was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\Users\user\AppData\Roaming\npm\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (C:\Users\user\AppData\Roaming\npm\node_modules\codeceptjs\lib\helper\WebDriverIO.js:2098:11)
+                    at WebDriverIO.click (C:\Users\user\AppData\Roaming\npm\node_modules\codeceptjs\lib\helper\WebDriverIO.js:534:7)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

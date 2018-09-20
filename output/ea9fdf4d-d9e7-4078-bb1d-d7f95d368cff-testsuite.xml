@@ -1,0 +1,178 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537417116315' stop='1537417135961'>
+    <name>Home:</name>
+    <title>Home:</title>
+    <test-cases>
+        <test-case start='1537417116318' status='passed' stop='1537417135882'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537417119998' status='passed' stop='1537417123602'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417123602' status='passed' stop='1537417123687'>
+                    <name>I see "CURA Healthcare Service"</name>
+                    <title>I see "CURA Healthcare Service"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417123687' status='passed' stop='1537417125625'>
+                    <name>I click "#btn-make-appointment"</name>
+                    <title>I click "#btn-make-appointment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417125625' status='passed' stop='1537417125689'>
+                    <name>I see "Login"</name>
+                    <title>I see "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417125689' status='passed' stop='1537417125695'>
+                    <name>I see current url equals "/profile.php#login"</name>
+                    <title>I see current url equals "/profile.php#login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417125695' status='passed' stop='1537417130918'>
+                    <name>I fill field "#txt-username", "John Doe"</name>
+                    <title>I fill field "#txt-username", "John Doe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417130918' status='passed' stop='1537417131220'>
+                    <name>I fill field "#txt-password", "ThisIsNotAPassword"</name>
+                    <title>I fill field "#txt-password", "ThisIsNotAPassword"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417131220' status='passed' stop='1537417131882'>
+                    <name>I click "#btn-login"</name>
+                    <title>I click "#btn-login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417131882' status='passed' stop='1537417132888'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417132888' status='passed' stop='1537417132992'>
+                    <name>I dont see "Login failed! Please ensure the username and password are valid."</name>
+                    <title>I dont see "Login failed! Please ensure the username and password are valid."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417132992' status='passed' stop='1537417133051'>
+                    <name>I see "Make Appointment"</name>
+                    <title>I see "Make Appointment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417133051' status='passed' stop='1537417133109'>
+                    <name>I select option "#combo_facility", "Hongkong CURA Healthcare Center"</name>
+                    <title>I select option "#combo_facility", "Hongkong CURA Healthcare Center"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417133109' status='passed' stop='1537417133190'>
+                    <name>I check option "#chk_hospotal_readmission"</name>
+                    <title>I check option "#chk_hospotal_readmission"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417133190' status='passed' stop='1537417133256'>
+                    <name>I click "#radio_program_none"</name>
+                    <title>I click "#radio_program_none"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417133256' status='passed' stop='1537417133344'>
+                    <name>I click "#txt_visit_date"</name>
+                    <title>I click "#txt_visit_date"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417133344' status='passed' stop='1537417133413'>
+                    <name>I click ".datepicker-switch"</name>
+                    <title>I click ".datepicker-switch"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417133414' status='passed' stop='1537417133497'>
+                    <name>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td//*[contains(concat(' ', normalize-space(./@class), ' '), ' month ')][contains(., 'Oct')]}</name>
+                    <title>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td//*[contains(concat(' ', normalize-space(./@class), ' '), ' month ')][contains(., 'Oct')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417133497' status='passed' stop='1537417133573'>
+                    <name>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td[position()=4]}</name>
+                    <title>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' table-condensed ')]//td[position()=4]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417133573' status='passed' stop='1537417133633'>
+                    <name>I click "#txt_comment"</name>
+                    <title>I click "#txt_comment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417133633' status='passed' stop='1537417133736'>
+                    <name>I fill field "#txt_comment", "I will see you"</name>
+                    <title>I fill field "#txt_comment", "I will see you"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417133736' status='passed' stop='1537417134657'>
+                    <name>I click "#btn-book-appointment"</name>
+                    <title>I click "#btn-book-appointment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417134657' status='passed' stop='1537417134759'>
+                    <name>I see "Appointment Confirmation"</name>
+                    <title>I see "Appointment Confirmation"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417134759' status='passed' stop='1537417135192'>
+                    <name>I click ".btn.btn-default"</name>
+                    <title>I click ".btn.btn-default"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417135193' status='passed' stop='1537417135278'>
+                    <name>I see "Make Appointment"</name>
+                    <title>I see "Make Appointment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417135278' status='passed' stop='1537417135337'>
+                    <name>I click "#menu-toggle"</name>
+                    <title>I click "#menu-toggle"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417135337' status='passed' stop='1537417135818'>
+                    <name>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' sidebar-nav ')]//a[contains(., 'History')]}</name>
+                    <title>I click {xpath: .//*[contains(concat(' ', normalize-space(./@class), ' '), ' sidebar-nav ')]//a[contains(., 'History')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537417135818' status='passed' stop='1537417135882'>
+                    <name>I see "History"</name>
+                    <title>I see "History"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

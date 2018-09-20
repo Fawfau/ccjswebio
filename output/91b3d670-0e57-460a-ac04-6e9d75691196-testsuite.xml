@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537413313102' stop='1537413323131'>
+    <name>Home:</name>
+    <title>Home:</title>
+    <test-cases>
+        <test-case start='1537413313106' status='failed' stop='1537413322733'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537413316673' status='passed' stop='1537413319947'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413319947' status='passed' stop='1537413320034'>
+                    <name>I see "CURA Healthcare Service"</name>
+                    <title>I see "CURA Healthcare Service"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413320034' status='passed' stop='1537413320582'>
+                    <name>I click "#btn-make-appointment"</name>
+                    <title>I click "#btn-make-appointment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413320582' status='passed' stop='1537413320658'>
+                    <name>I see "Login"</name>
+                    <title>I see "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413320658' status='passed' stop='1537413320665'>
+                    <name>I see current url equals "/profile.php#login"</name>
+                    <title>I see current url equals "/profile.php#login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413320665' status='passed' stop='1537413320769'>
+                    <name>I fill field "#txt-username", "JohnDoe"</name>
+                    <title>I fill field "#txt-username", "JohnDoe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413320769' status='passed' stop='1537413320904'>
+                    <name>I fill field "#txt-password", "ThisIsNotPassword"</name>
+                    <title>I fill field "#txt-password", "ThisIsNotPassword"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413320904' status='passed' stop='1537413321600'>
+                    <name>I click "#btn-login"</name>
+                    <title>I click "#btn-login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413321600' status='passed' stop='1537413322602'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413322602' status='failed' stop='1537413322733'>
+                    <name>I dont see "Login failed! Please ensure the username and password are valid."</name>
+                    <title>I dont see "Login failed! Please ensure the username and password are valid."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='bb6a7e82-09d2-40cc-8d9a-9171ed3af6be-attachment.png' type='image/png' size='34108'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

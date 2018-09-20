@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1537413242549' stop='1537413252546'>
+    <name>Home:</name>
+    <title>Home:</title>
+    <test-cases>
+        <test-case start='1537413242554' status='failed' stop='1537413252102'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1537413246311' status='passed' stop='1537413249304'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413249304' status='passed' stop='1537413249401'>
+                    <name>I see "CURA Healthcare Service"</name>
+                    <title>I see "CURA Healthcare Service"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413249401' status='passed' stop='1537413250011'>
+                    <name>I click "#btn-make-appointment"</name>
+                    <title>I click "#btn-make-appointment"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413250011' status='passed' stop='1537413250075'>
+                    <name>I see "Login"</name>
+                    <title>I see "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413250075' status='passed' stop='1537413250083'>
+                    <name>I see current url equals "/profile.php#login"</name>
+                    <title>I see current url equals "/profile.php#login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413250083' status='passed' stop='1537413250193'>
+                    <name>I fill field "#txt-username", "John Doe"</name>
+                    <title>I fill field "#txt-username", "John Doe"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413250193' status='passed' stop='1537413250324'>
+                    <name>I fill field "#txt-password", "ThisIsNotPassword"</name>
+                    <title>I fill field "#txt-password", "ThisIsNotPassword"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413250324' status='passed' stop='1537413251096'>
+                    <name>I click "#btn-login"</name>
+                    <title>I click "#btn-login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1537413251096' status='passed' stop='1537413252099'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='22eec0ee-642f-41f3-a751-2f0ad6cd9735-attachment.png' type='image/png' size='34108'/>
+            </attachments>
+            <failure>
+                <message>I.See is not a function</message>
+                <stack-trace>TypeError: I.See is not a function
+                    at Test.Scenario (c:\Users\user\Documents\Fawfau\Project\CobaCoba\ccjswebio\cobawebio_test.js:16:7)
+                    at Context.test.fn (C:\Users\user\AppData\Roaming\npm\node_modules\codeceptjs\lib\scenario.js:76:14)
+                    at callFnAsync (C:\Users\user\AppData\Roaming\npm\node_modules\codeceptjs\node_modules\mocha\lib\runnable.js:377:21)
+                    at Test.Runnable.run (C:\Users\user\AppData\Roaming\npm\node_modules\codeceptjs\node_modules\mocha\lib\runnable.js:324:7)
+                    at Runner.runTest (C:\Users\user\AppData\Roaming\npm\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:442:10)
+                    at C:\Users\user\AppData\Roaming\npm\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:560:12
+                    at next (C:\Users\user\AppData\Roaming\npm\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:356:14)
+                    at C:\Users\user\AppData\Roaming\npm\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:366:7
+                    at next (C:\Users\user\AppData\Roaming\npm\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:290:14)
+                    at C:\Users\user\AppData\Roaming\npm\node_modules\codeceptjs\node_modules\mocha\lib\runner.js:329:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
