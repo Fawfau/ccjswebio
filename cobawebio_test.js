@@ -1,13 +1,5 @@
 /// <reference path="./steps.d.ts" />
 
-var Chance = require('chance')
-
-// Instantiate Chance so it can be used
-var chance = new Chance()
-
-var my_profesi = chance.profession()
-var my_tanggal = chance.integer({ min: 1, max: 31 }).toString()
-
 Feature('Home');
 
 Scenario('Login @ini', async (I,loginPage) => {
@@ -34,9 +26,9 @@ Scenario('Buat Janji', async (I) => {
     I.click('.datepicker-switch')
     I.click(locate('.datepicker-months').find('td .month').withText('Nov'));
     I.wait(1)
-    I.click(locate('.datepicker-days').find('td').withChild('.day').withText(my_tanggal));
+    I.click(locate('.datepicker-days').find('td').withChild('.day').withText('20'));
     I.click('#txt_comment')
-    I.fillField('#txt_comment', my_profesi)
+    I.fillField('#txt_comment', 'blablabla')
     I.click('#btn-book-appointment')
     I.see('Appointment Confirmation')
     I.click('.btn.btn-default')
