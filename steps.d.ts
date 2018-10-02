@@ -1,5 +1,5 @@
 
-type ICodeceptCallback = (i: CodeceptJS.I) => void;
+type ICodeceptCallback = (i: CodeceptJS.I, loginPage:any) => void;
 
 declare class FeatureConfig {
   retry(times:number): FeatureConfig
@@ -229,6 +229,11 @@ declare namespace CodeceptJS {
     dragAndDropOffset(selector: string, xoffset: string, yoffset: string) : void,
     say(msg: string) : void,
     retryStep(opts: string) : void,
+
+  }
+
+  export interface loginPage {
+    loginUser(email: string, password: string) : void,
 
   }
 

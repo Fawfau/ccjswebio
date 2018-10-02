@@ -7,17 +7,20 @@
       "port": "4444",
       "protocol": "http",
       "path": "/wd/hub",
-      "smartWait": 5000,
+      "smartWait": 10000,
       "uniqueScreenshotNames": true,
+      "keepBrowserState": true,
+      "restart": false,
       "windowSize": "maximize",
-      "browser": "chrome"
+      "browser": "firefox"
     },
     "MyHelper": {
       "require": "./myhelper_helper.js"
     }
   },
   "include": {
-    "I": "./steps_file.js"
+    "I": "./steps_file.js",
+    "loginPage": "./pages/LoginPage.js"
   },
   "mocha": {
     "reporterOptions": {
@@ -28,10 +31,17 @@
   "teardown": null,
   "hooks": [],
   "gherkin": {},
+  "plugins": {
+    "allure": {
+      "enabled": true
+    }
+  },
+  "multiple" :{
+    "paralel":{
+      "chunks":2
+    }
+  },
   "tests": "./*_test.js",
   "timeout": 10000,
-  "name": "ccjswebio",
-  "plugins": {
-    "allure": {}
-}  
+  "name": "ccjswebio"
 }
